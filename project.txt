@@ -1,0 +1,21 @@
+
+Multilayer Data Security System
+
+A two-factor data security protection mechanism with factor revocability for cloud storage system.Our system allows a sender to send an encrypted
+ message to a receiver through a cloud storage server. The sender only needs to know the Identity of the receiver but no other information
+ (such as its public key or its certificate). The receiver needs to possess two things in order to decrypt the ciphertext. 
+The first thing is his/her secret key stored in the computer. The second thing is a unique personal security device which connects to the computer. 
+It is impossible to decrypt the ciphertext without either piece. More importantly, once the security device is stolen or lost, this device is revoked.
+ It cannot be used to decrypt any ciphertext. This can be done by the cloud server which will immediately execute some algorithms to change the existing 
+ciphertext to be un-decryptable by this device. This process is completely transparent to the sender. Furthermore, the cloud server 
+cannot decrypt any ciphertext at any time. The security and efficiency analysis show that our system is not only secure but also practical.
+
+Cloud storage is a model of networked storage system where data is stored in pools of storage which are generally hosted by third parties. 
+There are many benefits to use cloud storage The most notable is data accessibility. Data stored in the cloud can be accessed at any time 
+from any place as long as there is network access. Storage maintenance tasks, such as purchasin additional storage capacity, can be offloaded 
+to the responsibility of a service provider. Anoth advantage of cloud storage is data sharing between users. 
+If Alice wants to share a piece of da (e.g. a video) to Bob, it may be difficult for her to send it by email due to the size of da Instead, Alice 
+uploads the file to a cloud storage system so that Bob can download it at anytim Despite its advantages, outsourcing data storage also increases the 
+attack surface area at the sam time. For example, when data is distributed, the more locations it is stored the higher risk contains for unauthorized physical
+ access to the data. By sharing storage and networks w many other users it is also possible for other unauthorized users to access your data.
+
